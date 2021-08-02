@@ -1,0 +1,199 @@
+https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
+Fix the bugs in below snippet
+    <html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+        </title>
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+    
+    ANSWER:
+    <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Document</title> 
+    </head>
+    <body>   guvi  
+         <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+    //////////////////////////////////////////////////////////////////////
+    Try the below one
+<html lang="en">
+    <head>
+        <title>Document
+            <body>
+                guvi
+    </head>
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+    
+    ANSWER:
+    
+<html lang="en">
+    <head>
+        <title>Document guvi</title>
+    </head>
+    <body>   <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <div>
+            <div>
+                Guvi Geek Network
+            </div>
+        </body>
+    </html>
+/////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <h1 style="border: 2px solid black;border-style: dotted; background-color: springgreen; text-align: center;">Contact us Form</h1>
+        <p style="text-align: center; color: black; ">***please fill all the details****</p>
+        
+            <form action=" " method="GET">
+                <label for first name >FIRST NAME :</label>
+                <input  type="text" name="first name" placeholder="enter your first name">
+                <label for second name>SECOND NAME :</label>
+                <input type="text" name="second name" placeholder="enter your second name">
+                <br/><br/>
+                <label for email>E-mail:</label>
+                <input type="text" name="email" placeholder="enter your mail id">
+                <p>(example@gmail.com)</p>
+                <br/><br/>
+                <label for phoneno>PHONE NUMBER:</label>
+                <input type="text" name="phoneno" placeholder="enter your number">
+                <br/><br/>
+                <label for reason>Reason for Contact:</label>
+                <input type="text" name="reason" placeholder="enter your valid reason">
+                <br> <br>
+                <h2 style="text-align: center;">
+                <a style="border-radius: 2px solid black;border-style: ridge; text-align: center; color: tomato; 
+                background-color: rgb(253, 197, 253); " href="https://www.guvi.in/">Contact us</a>
+                </h2>
+                </form>
+        
+
+    
+    
+</body>
+</html>
+//////////////////////////////////////////////////////////////////////////////////////////////////////
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <ul>
+       <h1> <li>
+            programming languages
+        </li></h1>
+        <li type="circle">javascript</li>
+ 
+    <ol type="a">
+       <li>Angular</li>
+       <li>react</li>
+       <li>vue.js</li>
+    </ol>
+
+     <li type="circle">python</li>
+ 
+    <ol type="a">
+       <li>Django Framework</li>
+       <li>Flask Framework</li>
+       
+    </ol>
+     <li type="circle">java</li>
+ 
+    <ol type="a">
+       <li>spring</li>
+       <li>maven</li>
+       <li>Hibernate</li>
+       
+    </ol>
+</ul>
+<ul>
+<h2>
+    <li>Database</li>
+    </h2>
+    <li type="circle">mysql</li>
+        <li type="circle">mongodb</li>
+        <li type="circle">cansandra</li>
+</ul>
+
+
+    
+    
+</body>
+</html>
+/////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<a href= "https://google.com/">Click Me!</a>
+    
+    
+</body>
+</html>
+//////////////////////////////////////////////////////////////////////////////////////////////
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<form action="" method="GET">
+    <p style="font-weight: bold;">Employee type</p>
+    <input type="radio" name="salaried">
+    <label for salaried >salaried</label>
+    <input type="radio" name="own business">
+    <label for salaried>own business</label>
+  
+    <br>
+    <input type="submit" value="Submit">
+</form>
+    
+    
+</body>
+</html>
+////////////////////////////////////////////////////////////////
+
