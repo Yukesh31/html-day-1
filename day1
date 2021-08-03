@@ -63,6 +63,8 @@ Fix the bugs in below snippet
         </body>
     </html>
 /////////////////////////////////////////////////////////////////////////////
+3)Design a contact us form with all fields as required.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -103,7 +105,7 @@ Fix the bugs in below snippet
 </body>
 </html>
 //////////////////////////////////////////////////////////////////////////////////////////////////////
-
+4)Use certain HTML elements to display the following in a HTML page.
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -157,6 +159,8 @@ Fix the bugs in below snippet
 </body>
 </html>
 /////////////////////////////////////////////////////////////////////////////////////////////
+5)Create an element that helps you to open the https://google.com in separate new tab.
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -172,6 +176,7 @@ Fix the bugs in below snippet
 </body>
 </html>
 //////////////////////////////////////////////////////////////////////////////////////////////
+6)In the form, add two radio buttons with grouping them for employee type(Salaried and own business)
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -196,4 +201,16 @@ Fix the bugs in below snippet
 </body>
 </html>
 ////////////////////////////////////////////////////////////////
+
+
+
+
+
+
+
+
+
+
+
+
 
