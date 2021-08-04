@@ -201,6 +201,86 @@ Fix the bugs in below snippet
 </body>
 </html>
 ////////////////////////////////////////////////////////////////
+7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/practise.css">
+
+</head>
+<body>
+    <form >
+    <h1 >Yes! I Want to subscribe to Mag-O-Zine</h1>
+   <table><tr>
+   <td> <input class="style1" type="text"  name="fname"></td>
+   <td>  <input class="style1" type="text"  name="lname"></td></tr>
+<tr> <td>  <label for="fname">First name</label></td>
+   <td>  <label for="lname">Last name</label></td></tr>
+</table>
+    <input class="style1" type="text"  name="address"><br>
+    <label for="address">addresss</label>
+    
+    <table><tr>
+   <td> <input class="style1" type="text"  name="city"></td>
+   
+   <td> <input class="style1" type="text"  name="state"></td>
+    
+   <td><input class="style1" type="text"  name="Zip"></td></tr>
+   <tr>
+    <td><label for="city">City</label></td>
+    <td> <label for="state">state</label></td>
+    <td><label for="Zip">Zip</label></td></tr>
+</table>
+        
+    <p>subscribe for:</p>
+<input type="checkbox" name="1year">
+<label for ="1year">1 year($19.95)</label>
+<input type="checkbox" name="2year">
+<label for ="2year">2 year($35.00)</label>
+<p>send me more information about:</p>
+<input type="checkbox" name="computerzine">
+<label for="computerzine">Computer-Zine</label><br>
+<input type="checkbox" name="fishingzine">
+<label for="computerzine">Fishing-Zine</label><br>
+<input type="checkbox" name="catozine">
+<label for="computerzine">Cat-O-Zine</label>
+
+
+</form>
+</body>
+</html>
+
+
+
+"CSS FILE":
+form{
+    text-align: left;
+    border: 2px solid black;
+    width: 700px;
+    height: 500px;
+}
+p{
+font-size: large;
+font-weight: bolder;
+}
+h1{
+    background-color: red; 
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder; 
+    text-align: center;
+}
+.style1{
+    border:none;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-color:black;
+}
+////////////////////////////////////////////////////////////////////////////
 8)Use the table tag to design given image Click here.
 <!DOCTYPE html>
 <html lang="en">
@@ -258,6 +338,62 @@ Fix the bugs in below snippet
 </body>
 </html>
 /////////////////////////////////////////////////////////////////////////////////////////
+9)Write HTML input tags snippet to show default values for all Form elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/practise.css">
+</head>
+<body>
+    <form>
+        <label for="fname">First name:</label>
+<input type="text"  name="fname"> <br><hr>
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars" >
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select><br><hr>
+<label for message="message">Message:</label>
+<textarea name="message" rows="10" cols="10"> type your message here</textarea><br><hr>
+<button type="button" onclick="alert('Hello World!')">Click Me!</button><br><hr>
+<fieldset>
+    <legend>Personalia:</legend>
+    <label for="fname">First name:</label><br>
+    <input type="text" id="fname" name="fname" value="John"><br>
+    <label for="lname">Last name:</label><br>
+    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset><br><hr>
+  <input list="browsers" name="browser">
+  <datalist id="browsers">
+    <option value="Internet Explorer">
+    <option value="Firefox">
+    <option value="Chrome">
+    <option value="Opera">
+    <option value="Safari">
+  </datalist>
+  <input type="submit">
+  <br>
+
+
+    
+</form>
+</body>
+</html>
+
+"CSS FILE":
+form{ 
+    border: 2px solid black;
+    height:600px;
+    background-color:darkgray;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
