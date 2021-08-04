@@ -1,5 +1,5 @@
 https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
-Fix the bugs in below snippet
+1)Fix the bugs in below snippet
     <html lang="en">
     <head>
         <title>Document
@@ -32,7 +32,7 @@ Fix the bugs in below snippet
         </body>
     </html>
     //////////////////////////////////////////////////////////////////////
-    Try the below one
+ 2)   Try the below one
 <html lang="en">
     <head>
         <title>Document
@@ -200,7 +200,7 @@ Fix the bugs in below snippet
     
 </body>
 </html>
-////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////
 7)Design form shown in the link (http://evc-cit.info/cit040/formguide/card_0.png)
 <!DOCTYPE html>
 <html lang="en">
@@ -394,7 +394,113 @@ form{
     background-color:darkgray;
 }
 ///////////////////////////////////////////////////////////////////////////////////////////////////////
+11)Create an HTML page, which should contain all types of input elements.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/practise.css">
 
+</head>
+<body>
+    <form >
+        <input type="button" onclick="/https://www.google.com" value="LETS START!!!">
+        <br><hr>SELECT YOUR CAR:
+        <input type="checkbox" name="cars">
+        <label for ="cars">BMW</label>
+        
+        <input type="checkbox" name="cars">
+        <label for ="cars">AUDI</label>
+
+        <input type="checkbox" name="cars">
+        <label for ="cars">MERCEDES</label>
+
+        <br><hr>
+        SELECT YOUR CAR:
+        <input type="radio"  name="cars">
+        <label for ="cars">BMW</label>
+        <input type="radio"  name="cars">
+        <label for ="cars">AUDI</label>
+        <input type="radio"  name="cars">
+        <label for ="cars">MERCEDES</label>
+        <br><hr>
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color"  name="favcolor" value="black"><br>
+        <br><hr>
+        <label for="birthday">Birthday:</label>
+        <input type="date"  name="birthday">
+        <br><hr>
+        <label for="birthdaytime">Birthday(date and time):</label>
+        <input type="datetime-local"name="birthdaytime">
+        <br><hr>
+        <label for ="email">E-mail:</lbel>
+        <input type="email" name="email" required>
+        <br><hr>
+        <label for="myfile">Select files:</label>
+        <input type="file" name="myfile" multiple>
+        <br><hr>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname" required>
+        (hidden)
+        <input type="hidden"  name="custId" value="3487">
+        <br><hr>
+        <input type="image" src="C:\Users\Yukesh\Desktop\flower.JPG" alt="flower" width= 100px; height= 100px;>
+        "rose"
+        <br><hr>
+        <label for="month">select your month:</label>
+        <input type="month" name="month">
+        <br><hr>
+        <label for ="number">Enter the number:</label>
+        <input type="number" name="number" min="1" max="5" required>
+        <br><hr>
+        <label for="password">Enter Your Password:</label>
+        <input type="password" name="password" required>
+        <br><hr>
+        <label for="points">Points (between 0 and 100):</label>
+        <input type="range" name="points" min="0" max="110" step="10" >
+        <br><hr> 
+        <input type="reset" value="Reset">
+        <br><hr>
+        <label for="search">Enter Your Search Text:</label>
+        <input type="search" name="search">
+        <br><hr>
+        <input type="submit" value="submit">
+        <br><hr>
+        <label for="phone">Enter a phone number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="9999-999-999" required>
+        <small>(Format: 9962-192-464)</small>
+        <br><hr>
+        <label for ="time">select your available time:</label>
+        <input type="time" name="time">
+        <br><hr>
+        <label for="homepage">Add your Homepage:</label>
+        <input type="url" name="homepage">
+        <br><hr>
+        <label for="week">Select a week:</label>
+        <input type="week" name="week">
+        <br><hr><hr>
+        <br>
+        <p style="text-align: center;">
+            <input type="reset" value="RESET">
+        <input type="submit" value="SUBMIT">
+   </p>
+</form>
+</body>
+</html>
+
+
+"CSS FILE":
+form{
+    background-color: dimgray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 2px solid black;
+    width:500px;
+    height: 1050px;
+}
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
