@@ -275,8 +275,8 @@ p{
 form{
     text-align: left;
     border: 2px solid black;
-    width: 700px;
-    height: 500px;
+    width: 600px;
+    height: 400px;
 }
 p{
 font-size: large;
