@@ -64,7 +64,6 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
     </html>
 /////////////////////////////////////////////////////////////////////////////
 3)Design a contact us form with all fields as required.
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -75,6 +74,7 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
     <link rel="stylesheet" href="css/practise.css">
 </head>
 <body>
+  <div>
     <form>
         <h1 >Contact us Form</h1>
         <p >***please fill all the details****</p>
@@ -102,9 +102,13 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
                 background-color: rgb(253, 197, 253); " href="https://www.guvi.in/">Contact us</a>
                 </h2>
                 </form>
-        
+              </div>
+              </body>
+              </html>
+
  "CSS FILE":
  form{
+  background-color: cornflowerblue;
     text-align: left;
     border: 2px solid black;
     width: 600px;
@@ -114,7 +118,8 @@ h1{
     border: 2px solid black;border-style: dotted; background-color: springgreen; text-align: center
 }
 div{
-    padding:350px;
+     margin-top: 100px;
+    margin-left: 400px;
 }
 p{
     text-align: center; color: black
@@ -217,7 +222,10 @@ div{
     <div>
 
     <form action="" method="GET">
-    <p style="font-weight: bold; text-decoration: dotted;">Employee type:</p><hr>
+      <br>
+      <label for ="name">NAME:</label>
+      <input type="text" name="name"><br>
+    <p style="font-weight: bold; text-decoration: dotted;">Employee type:</p>
     <input type="radio" name="salaried">
     <label for salaried >salaried</label>
     <input type="radio" name="own business">
@@ -244,6 +252,9 @@ div{
 
 </head>
 <body>
+  <div>
+
+  
     <form >
     <h1 >Yes! I Want to subscribe to Mag-O-Zine</h1>
    <table><tr>
@@ -282,9 +293,9 @@ div{
 
 
 </form>
+</div>
 </body>
 </html>
-
 
 
 "CSS FILE":
@@ -292,7 +303,7 @@ form{
     text-align: left;
     border: 2px solid black;
     width: 600px;
-    height: 400px;
+    height: 450px;
 }
 p{
 font-size: large;
@@ -344,6 +355,7 @@ div{
     </style>
 </head>
 <body>
+  <div>
     <table style="width:100%;">
     <caption style="font-size: x-large; font-weight: bolder; text-decoration: underline;">Health Chart</caption>
     <tr>
@@ -375,7 +387,7 @@ div{
         <td>More than 200</td>
     </tr>
     </table>
-    
+    </div>
     
 </body>
 </html>
