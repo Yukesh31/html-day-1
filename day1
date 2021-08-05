@@ -72,24 +72,28 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/practise.css">
 </head>
 <body>
-        <h1 style="border: 2px solid black;border-style: dotted; background-color: springgreen; text-align: center;">Contact us Form</h1>
-        <p style="text-align: center; color: black; ">***please fill all the details****</p>
+    <form>
+        <h1 >Contact us Form</h1>
+        <p >***please fill all the details****</p>
         
-            <form action=" " method="GET">
                 <label for first name >FIRST NAME :</label>
                 <input  type="text" name="first name" placeholder="enter your first name">
                 <label for second name>SECOND NAME :</label>
                 <input type="text" name="second name" placeholder="enter your second name">
                 <br/><br/>
                 <label for email>E-mail:</label>
-                <input type="text" name="email" placeholder="enter your mail id">
-                <p>(example@gmail.com)</p>
-                <br/><br/>
-                <label for phoneno>PHONE NUMBER:</label>
-                <input type="text" name="phoneno" placeholder="enter your number">
-                <br/><br/>
+                <input type="text" name="email" placeholder="enter your mail id">example@gmail.com
+                <br><br>
+                <label for="birthday">DOB:</label>
+                <input type="date"  name="birthday">
+                <br><br>
+                <label for="phone">Enter a phone number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="9999-999-999" required>
+                <small>(Format: 9962-192-464)</small>
+                <br><br>
                 <label for reason>Reason for Contact:</label>
                 <input type="text" name="reason" placeholder="enter your valid reason">
                 <br> <br>
@@ -99,11 +103,22 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
                 </h2>
                 </form>
         
-
-    
-    
-</body>
-</html>
+ "CSS FILE":
+ form{
+    text-align: left;
+    border: 2px solid black;
+    width: 600px;
+    height: 450px;
+}
+h1{
+    border: 2px solid black;border-style: dotted; background-color: springgreen; text-align: center
+}
+div{
+    padding:350px;
+}
+p{
+    text-align: center; color: black
+}
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 4)Use certain HTML elements to display the following in a HTML page.
 <!DOCTYPE html>
