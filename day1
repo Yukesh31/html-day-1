@@ -85,7 +85,7 @@ https://github.com/rvsp/HTML-CSS/blob/master/Mini-tasks/001-HTML.md
                 <input type="text" name="second name" placeholder="enter your second name">
                 <br/><br/>
                 <label for email>E-mail:</label>
-                <input type="text" name="email" placeholder="enter your mail id">example@gmail.com
+                <input type="text" name="email" placeholder="enter your mail id"><small>example@gmail.com</small>
                 <br><br>
                 <label for="birthday">DOB:</label>
                 <input type="date"  name="birthday">
